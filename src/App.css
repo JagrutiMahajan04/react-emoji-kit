@@ -1,38 +1,71 @@
-.App {
+.app-title-container{
+  background-color: white;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 5px double green;
+  box-shadow:  1px 1px 1px 2px rgb(23, 246, 23);
+
+}
+
+.app-title{
   text-align: center;
+  margin:0px;
+  color: red;
+  font-family:  ' Courier, monospace';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-emoji-container{
+  background-color: beige;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  box-shadow:  1px 1px 1px 2px rgb(23, 246, 23);
+  border:1px double rgb(10, 52, 1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-emoji{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100%;
+  font-size: 150px;
+  margin-top: -10px;
 }
 
-.App-link {
-  color: #61dafb;
+.emoji-container{
+  background-color: azure;
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.emoji-item{
+  font-size: 50px;
+  margin:10px;
+  cursor:pointer;
+  background-color: rgb(179, 254, 160);
+  border-radius: 10px;
+  padding-bottom: 5px;
+  border: 2px solid rgb(4, 255, 0);
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.emoji-item:hover{
+  transform: scale(1.4);
+  transition: 0.4s;
+  box-shadow: 1px 1px 1px 2px rgb(46, 186, 3);
+  border-radius: 10px;
+
 }
