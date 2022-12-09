@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import './components/Footer/Footer'
 
 
 function App() {
@@ -57,8 +58,12 @@ function App() {
 
       </div>
 
+     <div>
+      <Footer/>
+     </div>
 
     </div>
+    
   );
 }
 
